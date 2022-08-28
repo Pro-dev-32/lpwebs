@@ -75,18 +75,6 @@ body {
 	height: 100%;
 	overflow: hidden;
 }
-.box-area li {
-	position: absolute;
-	display: block;
-	list-style: none;
-	width: 0;
-	height: 0;
-	border-bottom: 160px solid rgba(255, 255, 255, 0.2);
-	border-left: 20px solid transparent;
-	border-right: 20px solid transparent;
-	animation: animate 20s linear infinite;
-	bottom: -150px;
-}
 .box-area li:nth-child(1) {
 	left: 86%;
 	animation-delay: 0s;
